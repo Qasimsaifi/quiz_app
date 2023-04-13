@@ -29,7 +29,7 @@ export default function Quiz() {
   };
 
   return (
-    <div>
+    <>
       <h1 className='main-heading'>{quizdata.quiz_text}</h1>
       {quizdata.questions.map((question) => (
         <div key={question.id}>
@@ -53,6 +53,6 @@ export default function Quiz() {
         Submit Quiz
       </button>
       <h1>Your Score : {score}</h1>
-    </div>
+    </>
   );
 }
