@@ -23,8 +23,8 @@ const quizdata = {
             "id": 3,
             "ques_text": "Who is the first prime minister of India?",
             "options": [{ "id": 7, "text": "Narendra Modi", "is_right": false },
-            { "id": 8, "text": "Jawaharlal Nehru", "is_right": false },
-            { "id": 9, "text": "Rajendra Prasad", "is_right": true },
+            { "id": 8, "text": "Jawaharlal Nehru", "is_right": true },
+            { "id": 9, "text": "Rajendra Prasad", "is_right": false },
             ]
         },
         {
