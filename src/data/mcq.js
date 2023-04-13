@@ -29,7 +29,7 @@ const quizdata = {
         },
         {
             "id": 4,
-            "ques_text": "Who is the woman first prime minister of India?",
+            "ques_text": "Who is the first prime minister of India?",
             "options": [{ "id": 10, "text": "Sonia Gandhi", "is_right": false },
             { "id": 11, "text": "Draupadi Murmu", "is_right": false },
             { "id": 12, "text": "Indira Gandhi", "is_right": true },
