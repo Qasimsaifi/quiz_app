@@ -1,4 +1,5 @@
-import quizdata from "@/data/mcq"
+import quizdata from "@/data/mcq";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       <h2>Availble quiz</h2>
       <div>
         <h4>{quizdata.quiz_text}</h4>
-    <a href="quiz" className="btn">Start Quiz</a>
+    <Link href="quiz" className="btn">Start Quiz</Link>
       </div>
     </>
   )
